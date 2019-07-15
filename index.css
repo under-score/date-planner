@@ -1,0 +1,217 @@
+@font-face {
+font-family: Libre Franklin Light;  
+src: url(//www.wjst.de/images/font/librefranklin-extralight.ttf);  
+font-weight: 300;
+}
+* {
+margin:0px;
+padding:0px;
+}
+body, table, input, textarea {
+font-family: Libre Franklin Light, Helvetica, sans-serif;
+font-size: 14px;
+}
+.myh1 {
+font-size: 20px;
+}
+textarea {
+font-size: 12px;
+white-space: normal;
+text-align: center;
+-moz-text-align-last: center;
+text-align-last: center;
+background-color: white;
+width: 72px;
+display: none;
+}
+.dc {
+text-align: center;
+font-size: 13px;
+color: blue;
+}
+.selecttable {
+width: 200px;
+}
+.mytable td {
+width: 72px;
+border-collapse: collapse;
+}
+.mytable tr {
+vertical-align:center;
+}
+input[type="text"] { 
+font: inherit;
+width:120px;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder,
+input:-moz-placeholder,
+textarea:-moz-placeholder,
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #666;
+}
+input[type=submit] {
+border-radius: 0px;
+border: 0;
+width: 80px;
+height: 35px;
+font-family: inherit;
+background: #eee;
+background: -moz-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f4f4f4), color-stop(100%, #ededed));
+background: -webkit-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+background: -o-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+background: -ms-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+background: linear-gradient(to bottom, #f4f4f4 1%, #ededed 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#ededed', GradientType=0);
+}
+.df {
+width:70px;
+text-align:right;
+}
+.rm {
+color:red;
+}
+.hm {
+width:40px;
+text-align:right;
+}
+#event {
+  width:245px;
+}
+#p {
+  width:120px;
+}
+
+.ok {
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+font-size: 30px !important;
+width:90px;
+height: 50px;
+color:white;
+}
+.divcheckbox {
+display: table-cell;
+background-color:#eee;
+width: 72px;
+height: 54px;
+text-align: center;
+vertical-align: middle;
+border:1px solid #eee;
+}
+a:link, a:visited  {
+color: blue;
+text-decoration: none;
+}
+
+#i1 {
+float:left;
+text-align:center;
+margin-right:20px;
+}
+#i2, #i3 {
+float:left;
+text-align:center;
+margin-right:20px;
+display:none;
+}
+
+.numberCircle {
+  background: #cccccc;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.6em; 
+}
+.numberCircle1 {
+  background: white;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: black;
+  display: inline-block;
+  line-height: 1.6em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.6em; 
+}
+.numberCircle2 {
+  background: blue;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: white;
+  display: inline-block;
+  line-height: 1.6em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.6em; 
+}
+.numberCircle3 {
+  border: 1px dotted black;
+}
+.inputBorder {
+  border: 3px solid rgba(81, 203, 238, 1);
+}
+
+#main {
+position: relative;
+margin-top:50px;
+margin-bottom:0%;
+margin-left:50px;
+margin-right:auto;
+max-width:900px;
+padding: 0%;
+/*background-color: rgba(5, 3, 166, 0.03);*/
+}
+#ScrollDiv {
+width:100%;
+vertical-align:top;
+float:left;
+overflow-x:auto;
+overflow-y:hidden;
+}
+::-webkit-scrollbar {
+-webkit-appearance: none;
+}
+::-webkit-scrollbar:vertical {
+width: 12px;
+}
+::-webkit-scrollbar:horizontal {
+height: 12px;
+}
+::-webkit-scrollbar-thumb {
+background-color: rgba(0, 0, 0, .5);
+border-radius: 10px;
+border: 2px solid #ffffff;
+}
+::-webkit-scrollbar-track {
+border-radius: 10px;
+background-color: #ffffff;
+}
+::-webkit-input-placeholder {
+color:blue;
+}
+:-moz-placeholder {
+color:blue;  
+}
+::-moz-placeholder {
+color:blue;  
+}
+:-ms-input-placeholder {  
+color:blue;  
+}
+
+@media screen and (max-width: 800px) {
+  .mobile, #beta { display:none; }
+  input[type=text] { width: 120px; }
+  #main { margin: 10px; padding:10px; width: 92%; }
