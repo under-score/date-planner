@@ -7,4 +7,4 @@ single php file and vanilla javascript that does it all
 * subscribe to calendar (ics, rss)  
 * expire after event
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![screenshot](under-score/terminplanner/blob/master/screen.jpg "setup")
