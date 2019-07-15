@@ -7,4 +7,4 @@ single php file and vanilla javascript that does it all
 * subscribe to calendar (ics, rss)  
 * expire after event
 
-![screenshot](screen.jpg "setup")
+![screenshot](screenshot.jpg "setup")
