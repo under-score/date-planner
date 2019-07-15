@@ -1,11 +1,12 @@
 # terminplanner
 no need for doodle(r)  
   
-single php file and vanilla javascript that does it all  
+one plain php file and vanilla javascript that does it all  
 * switch language
-* data storage in sqlite
+* quick select 1s per date
+* store data in sqlite
 * no cookies 
-* subscribe to calendar (ics, rss)  
+* email and subscribe to calendar (ics, rss)  
 * expire after event
 
 ![screenshot](screenshot.jpg "setup")
