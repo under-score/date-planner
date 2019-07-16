@@ -62,21 +62,25 @@ function month2table($id, $year, $m, $calendar_array) {
 		$res = '<div id="i1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' . strftime('%B', mktime(0, 0, 0, $m, 10)) . " " . $year .'&nbsp;&nbsp;&nbsp;<a href="#" onclick="
 document.getElementById(\'i1\').style.display = \'none\';
 document.getElementById(\'i2\').style.display = \'block\';
+return false;
 ">&gt;&gt;</a>';
 		break;
 	case 2:
 		$res = '<div id="i2"><a href="#" onclick="
 document.getElementById(\'i2\').style.display = \'none\';
 document.getElementById(\'i1\').style.display = \'block\';
+return false;
 ">&lt;&lt;</a>&nbsp;&nbsp;&nbsp;' . strftime('%B', mktime(0, 0, 0, $m, 10)) . " " . $year .'&nbsp;&nbsp;&nbsp;<a href="#" onclick="
 document.getElementById(\'i2\').style.display = \'none\';
 document.getElementById(\'i3\').style.display = \'block\';
+return false;
 ">&gt;&gt;</a>';
 		break;
 	case 3:
 		$res = '<div id="i3"><a href="#" onclick="
 document.getElementById(\'i3\').style.display = \'none\';
 document.getElementById(\'i2\').style.display = \'block\';
+return false;
 ">&lt;&lt;</a>&nbsp;&nbsp;&nbsp;' . strftime('%B', mktime(0, 0, 0, $m, 10)) . " " . $year .'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 		break;
 	}
