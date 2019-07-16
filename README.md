@@ -12,4 +12,4 @@ one php, one css and one vanilla javascript file that does it all
 * terminate entries with code word
 * expires after event
 
-![screenshot](screenshot.jpg "setup")
+![screenshot](submit.jpg "setup")
