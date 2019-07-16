@@ -1,15 +1,17 @@
 # terminplanner
 no need for doodle(r)  
   
-one php, one css and one vanilla javascript file that does it all  
+one php, one css and vanilla javascript file that does it all (28kb) 
 * switch language
-* mobile ready display
-* quick date selection and availability
+* mobile and desktop display
+* quick date selection, editing and removal
 * stores data in local sqlite database
-* no cookies, no registration, using browser hash
+* no cookies, no registration
+* edit with identical browser hash
 * export calendar ics
-* subscribe calendar rss
+* user can subscribe to calendar rss
+* admin can monitor calendar rss
 * terminate entries with code word
-* expires after event
+* all entries removed after event
 
-![screenshot](submit.jpg "setup")
+![screenshot](screenshot.jpg "setup")
