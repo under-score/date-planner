@@ -1,4 +1,4 @@
-# terminplanner
+# date planner
 no need for doodle(r)  
   
 one php, one css and vanilla javascript file that does it all (28kb) 
