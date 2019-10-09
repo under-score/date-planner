@@ -127,9 +127,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
       document.getElementById('t'+i).addEventListener('click', clickf, true);
       document.getElementById('c'+i).addEventListener('click', clickf, true);
 
-      document.getElementById('o'+i).addEventListener('click', clickc);
-      document.getElementById('t'+i).addEventListener('click', clickc);
-      document.getElementById('c'+i).addEventListener('click', clickc);
+      document.getElementById('o'+i).addEventListener('change', clickc);
+      document.getElementById('t'+i).addEventListener('change', clickc);
+      document.getElementById('c'+i).addEventListener('change', clickc);
     }
     document.getElementById("i").value = cols;
   }
